@@ -14,14 +14,13 @@ var romanLookup = [
     [1, 'I']
   ];
   
-  function RomanNumeral(num){
-    var i;
+function RomanNumeral(num){
     if(num===0){
         return '';
     }
-    for (i=0; i<romanLookup.length;i++){
-        if (num>=romanLookup[i][0]){
-            return romanLookup[i][1]+RomanNumeral(num-romanLookup[i][0])
+    for (var i = 0; i < romanLookup.length; i++){
+        if (num >= romanLookup[i][0]){
+            return romanLookup[i][1]+RomanNumeral(num-romanLookup[i][0]);
         }
     }
-  }
+}

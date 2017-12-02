@@ -2,23 +2,23 @@ describe('RomanNumeral', function () {
   it ('returns I for 1', function () {
     expect(RomanNumeral(1)).toEqual('I')
   })
-  it ('returns V for 5', function () {
-    expect(RomanNumeral(5)).toEqual('V')
+  it ('returns IX for 9', function () {
+    expect(RomanNumeral(9)).toEqual('IX')
   })
   it ('returns L for 50', function () {
     expect(RomanNumeral(50)).toEqual('L')
   })
-  it ('returns CMII for 902', function () {
-    expect(RomanNumeral(902)).toEqual('CMII')
+  it ('returns DCCCII for 802', function () {
+    expect(RomanNumeral(802)).toEqual('DCCCII')
   })
-  it ('returns XLV for 45', function () {
-    expect(RomanNumeral(45)).toEqual('XLV')
+  it ('returns XXI for 21', function () {
+    expect(RomanNumeral(21)).toEqual('XXI')
   })
-  it ('returns MCMXCVI for 1996', function () {
-    expect(RomanNumeral(1996)).toEqual('MCMXCVI')
+  it ('returns DCCLXXVII for 777', function () {
+    expect(RomanNumeral(777)).toEqual('DCCLXXVII')
   })
-  it ('returns MMXVIII for 2018', function () {
-    expect(RomanNumeral(2018)).toEqual('MMXVIII')
+  it ('returns MMX for 2010', function () {
+    expect(RomanNumeral(2010)).toEqual('MMX')
   })
 
 })
