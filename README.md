@@ -10,4 +10,4 @@ In the jasmine folder you will find
 
 The src folder has the javscript file called RomanNumeral.JS that has the main code.
 
-The spec folder has the javascript file called RomanNUmeralSpecs.js. The purpose is to test the methods in RomanNumeral.JS. Run SpecRunner.html in your browser to execute the tests.
+The spec folder has the javascript file called RomanNumeralSpecs.js. The purpose is to test the methods in RomanNumeral.JS. Run SpecRunner.html in your browser to execute the tests.
